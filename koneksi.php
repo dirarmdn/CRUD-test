@@ -1,4 +1,4 @@
 <?php
-mysql_connect("localhost","root","");
-mysql_select_db("crud_db");
+$host = mysql_connect("localhost","root","");
+$db = mysql_select_db("crud_db");
 ?>
